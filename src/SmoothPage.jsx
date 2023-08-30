@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import './page.css'; 
+import './Page.css'; 
 const SmoothPage = ({ isVisible, children }) => {
   const [isRendered, setIsRendered] = useState(isVisible);
   
